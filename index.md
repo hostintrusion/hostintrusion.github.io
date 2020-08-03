@@ -18,3 +18,6 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 # Learning Resources
 
 # References
+### Microsoft Windows
+[Microsoft - Events to Monitor](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
+[NSA - Recommended Events to Collect](https://github.com/nsacyber/Event-Forwarding-Guidance/tree/master/Events)
