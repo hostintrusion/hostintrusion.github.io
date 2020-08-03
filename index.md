@@ -11,7 +11,9 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 
 # Getting Started
 The focus of Host Intrusion is primarily on host based artifacts - including logs, and others such as host based agent data and process dumps. There are other artifacts such as network logs (PCAPS and IDS), which provide detailed insights into network behaviour i.e. C2, interactions etc. From a DFIR perspective, disk images and memory captures also provide detailed evidence of host level activity (i.e. user and system). All of these artifacts provide the network defender with a rich insights across both the host and network - however the reality is quite different; i.e. lack of network level monitoring/collection, tool configuration, or lack of skilled personnel.
+
 Audit logs provide a minimum level of security monitoring that can be implemented using vendor best practices. Detection of adversary behaviour using audit logs is largely dependent on the source (i.e. product and configuration), traditionally, audit logs haven’t always provided the low-level signals (i.e. command-line/API interactions etc). 
+
 The exercises below aim to walkthrough some of adversary attacks, highlight some of the challenges (gaps) and how other artifacts could be correlated to establish facts and inform conclusions.
 
 # Recommended Books
