@@ -9,6 +9,8 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 
 **Disclaimer:** Please handle artifacts with care, and do not use on production systems. Whilst care has been taken to minimise use of malicious artifacts, there could be traces i.e. commands/scripts embedded in logs etc.
 
+# Getting Started
+
 # Exercises
 
 # Samples
