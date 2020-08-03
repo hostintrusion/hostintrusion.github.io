@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: TLP-WHITE
 description: Walkthroughs, challenges, and examples of host compromises
-logo: https://hostintrusion.com/host-intrusion-img.png
+logo: /host-intrusion-img.png
 show_downloads: true
 google_analytics: UA-174336987-1
