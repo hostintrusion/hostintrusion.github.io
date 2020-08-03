@@ -14,6 +14,9 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 # Samples
 
 # Good Practices
++ [NIST Guide to Computer Security Log Management](https://csrc.nist.gov/publications/detail/sp/800-92/final)
++ [NCSC Introduction to Logging](https://www.ncsc.gov.uk/guidance/introduction-logging-security-purposes)
++ [NCSC Logging Made Easy](https://www.ncsc.gov.uk/information/logging-made-easy)
 
 # Learning Resources
 
@@ -21,3 +24,8 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 ### Microsoft Windows
 + [Microsoft - Events to Monitor](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
 + [NSA - Recommended Events to Collect](https://github.com/nsacyber/Event-Forwarding-Guidance/tree/master/Events)
++ [Windows EVTX Samples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
++ [UltimateWindowsSecurity - EventID Lookup](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
+### Linux
+### Configuration
++ [CIS Benchmarks](https://github.com/cismirror/benchmarks)
