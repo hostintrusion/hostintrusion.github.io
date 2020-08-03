@@ -19,6 +19,7 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 + [NIST Guide to Computer Security Log Management](https://csrc.nist.gov/publications/detail/sp/800-92/final)
 + [NCSC Introduction to Logging](https://www.ncsc.gov.uk/guidance/introduction-logging-security-purposes)
 + [NCSC Logging Made Easy](https://www.ncsc.gov.uk/information/logging-made-easy)
++ [ACSC Windows Event Logging and Forwarding](https://www.cyber.gov.au/acsc/view-all-content/publications/windows-event-logging-and-forwarding)
 
 # Learning Resources
 
@@ -33,3 +34,6 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 
 ### Configuration
 + [CIS Benchmarks](https://github.com/cismirror/benchmarks)
+
+### Threat
++ [Mitre ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/)
