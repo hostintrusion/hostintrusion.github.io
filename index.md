@@ -26,6 +26,8 @@ Intended audience: SOC analysts, researchers and network defenders - to detect a
 + [NSA - Recommended Events to Collect](https://github.com/nsacyber/Event-Forwarding-Guidance/tree/master/Events)
 + [Windows EVTX Samples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
 + [UltimateWindowsSecurity - EventID Lookup](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
+
 ### Linux
+
 ### Configuration
 + [CIS Benchmarks](https://github.com/cismirror/benchmarks)
