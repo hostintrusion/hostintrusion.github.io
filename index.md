@@ -24,6 +24,8 @@ The exercises will focus on log sources from a variety of sources, including web
 # Exercises
 The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data. Secondly, the exercises have deliberately introduced constraints through improper configuration i.e. logging, clock sync etc, representing real-world challenges.
 
++ [07-2020-WebShell](/exercise/webshell)
+
 # Tools
 A selection of tools for viewing/querying log files via the CLI.
 + [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI)
