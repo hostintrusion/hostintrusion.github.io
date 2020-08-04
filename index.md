@@ -16,9 +16,8 @@ Audit logs provide a minimum level of security monitoring that can be implemente
 
 The exercises below aim to walkthrough some of adversary attacks, highlight some of the challenges (gaps) and how other artifacts could be correlated to establish facts and inform conclusions.
 
-# Recommended Books
-
 # Exercises
+The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data.
 
 # Tools
 A selection of tools for viewing/querying log files via the CLI.
@@ -30,14 +29,16 @@ A selection of tools for viewing/querying log files via the CLI.
 # Samples
 
 # Good Practices
+Authority resources that provide good practices from host configuration through to incident response.
 + [NIST Guide to Computer Security Log Management](https://csrc.nist.gov/publications/detail/sp/800-92/final)
 + [NCSC Introduction to Logging](https://www.ncsc.gov.uk/guidance/introduction-logging-security-purposes)
 + [NCSC Logging Made Easy](https://www.ncsc.gov.uk/information/logging-made-easy)
 + [ACSC Windows Event Logging and Forwarding](https://www.cyber.gov.au/acsc/view-all-content/publications/windows-event-logging-and-forwarding)
 
-# Learning Resources
+# Recommended Books
 
 # References
+Curated list of references grouped by theme, a mix of primer, look-ups, configurations and vendor recommendations.
 ### Microsoft Windows
 + [Microsoft - Events to Monitor](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
 + [NSA - Recommended Events to Collect](https://github.com/nsacyber/Event-Forwarding-Guidance/tree/master/Events)
