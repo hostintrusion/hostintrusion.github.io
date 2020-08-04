@@ -29,5 +29,6 @@ Using the log files can you determine and undertake the following:
 + Produce an incident report detailing the attack and recommendations.
 
 # References
-+[ACSC - Advisory 2020-008: Copy-paste compromises - tactics, techniques and procedures used to target multiple Australian networks](https://www.cyber.gov.au/acsc/view-all-content/advisories/advisory-2020-008-copy-paste-compromises-tactics-techniques-and-procedures-used-target-multiple-australian-networks)
-+[NSA - Detect and Prevent Web Shell Malware](https://media.defense.gov/2020/Jun/09/2002313081/-1/-1/0/CSI-DETECT-AND-PREVENT-WEB-SHELL-MALWARE-20200422.PDF)
+The following advisories may assist:
++ [ACSC - Advisory 2020-008: Copy-paste compromises - tactics, techniques and procedures used to target multiple Australian networks](https://www.cyber.gov.au/acsc/view-all-content/advisories/advisory-2020-008-copy-paste-compromises-tactics-techniques-and-procedures-used-target-multiple-australian-networks)
++ [NSA - Detect and Prevent Web Shell Malware](https://media.defense.gov/2020/Jun/09/2002313081/-1/-1/0/CSI-DETECT-AND-PREVENT-WEB-SHELL-MALWARE-20200422.PDF)
