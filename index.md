@@ -1,7 +1,7 @@
 # Introduction
 HostIntrusion.com is an educational resource primarily focused on developing skills and knowledge of host based intrusions. These intrusions have been inspired by real-life documented OSINT reports.
 
-Intended audience: SOC analysts, researchers and network defenders - to detect adversary attacks against enterprise IT systems.
+**Intended audience:** SOC analysts, researchers and network defenders - to detect adversary attacks against enterprise IT systems.
 
 **Prerequisites:** Essential: host and network topologies, infrastructure components/configurations. Basic understanding of Windows and Linux OS, familiarisation of log sources, and knowledge of attack methods is recommended. 
 
@@ -19,6 +19,9 @@ The exercises below aim to walkthrough some of adversary attacks, highlight some
 # Recommended Books
 
 # Exercises
+
+# Tools
++ [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI)
 
 # Samples
 
@@ -44,3 +47,4 @@ The exercises below aim to walkthrough some of adversary attacks, highlight some
 
 ### Threat
 + [Mitre ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/)
++ [ActiveCountermeasures - Log Analysis](https://www.activecountermeasures.com/log-analysis-part-1-enterprise-logging-approaches/)
