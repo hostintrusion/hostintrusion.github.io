@@ -16,8 +16,13 @@ Audit logs provide a minimum level of security monitoring that can be implemente
 
 The exercises below aim to walkthrough some of adversary attacks, highlight some of the challenges (gaps) and how other artifacts could be correlated to establish facts and inform conclusions.
 
+# Host Intrusion
+An host intrusion could be detected by several means, a SIEM alert could be generated in response to an event (i.e. AV alert, configuration change etc), a user could report unusual activity (i.e performance, account lock out etc), or through a pro-active investigation (i.e. hunting for evidence of suspicious activity via IoCs). 
+
+The exercises will focus on log sources from a variety of sources, including web servers, domain controllers, sysmon, auditd etc to correlate activity relating to the intrusion, methods of analysis and presenting as part of a incident report.
+
 # Exercises
-The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data.
+The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data. Secondly, the exercises have deliberately introduced constraints through improper configuration i.e. logging, clock sync etc, representing real-world challenges.
 
 # Tools
 A selection of tools for viewing/querying log files via the CLI.
@@ -55,3 +60,6 @@ Curated list of references grouped by theme, a mix of primer, look-ups, configur
 ### Threat
 + [Mitre ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/)
 + [ActiveCountermeasures - Log Analysis](https://www.activecountermeasures.com/log-analysis-part-1-enterprise-logging-approaches/)
+
+# What Next?
+
