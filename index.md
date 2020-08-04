@@ -44,6 +44,7 @@ A selection of tools for viewing/querying log files via the CLI.
 + [Windows EVTX Samples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
 + [UltimateWindowsSecurity - EventID Lookup](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
 + [Microsoft - Event Logs](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc722404(v=ws.11)?redirectedfrom=MSDN)
++ [SANS - Event IDS](https://wiki.sans.blue/Tools/pdfs/WindowsEventLogsTable.pdf)
 
 ### Linux
 
