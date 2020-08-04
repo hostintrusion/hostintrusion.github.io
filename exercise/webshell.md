@@ -11,6 +11,7 @@ The SIEM generated an alert in response to an attempt to create a user to a loca
 
 SysMon 06/07/2020 12:57:23, EventRecID: 1087. It has been confirmed that this activity wasn't legitimate.
 
+## Objective
 Using the log files can you determine and undertake the following:
 
 + Attacker IP addresses?
@@ -29,6 +30,9 @@ Using the log files can you determine and undertake the following:
 + What SIEM correlation rules could be used to detect the attack earlier?
 + Establish time line of events
 + Produce an incident report detailing the attack and recommendations.
+
+## Solution
+To follow...
 
 # References
 The following advisories may assist:
