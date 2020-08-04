@@ -60,6 +60,7 @@ Curated list of references grouped by theme, a mix of primer, look-ups, configur
 ### Threat
 + [Mitre ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/)
 + [ActiveCountermeasures - Log Analysis](https://www.activecountermeasures.com/log-analysis-part-1-enterprise-logging-approaches/)
++ [UK Home Office Cyber - Detecting the Unknown](https://hodigital.blog.gov.uk/wp-content/uploads/sites/161/2020/03/Detecting-the-Unknown-A-Guide-to-Threat-Hunting-v2.0.pdf)
 
 # What Next?
 
