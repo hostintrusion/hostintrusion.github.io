@@ -35,7 +35,8 @@ A selection of tools for viewing/querying log files via the CLI.
 
 # Samples
 Link to a Git repo containing a variety of artifacts mapped to MITRE ATT&CK technique IDs. These are small snippets of log entries for example, that are based on known and reported TTPs. Please note, some of these techniques could be dual use i.e. used for legitimate as well as malicious purposes.
-+[MITRE ATT&CK Mapped Artifacts](https://github.com/hostintrusion/MITRE-Technique-Samples/)
+
++ [MITRE ATT&CK Mapped Artifacts](https://github.com/hostintrusion/MITRE-Technique-Samples/)
 
 # Good Practices
 Authority resources that provide good practices from host configuration through to incident response.
