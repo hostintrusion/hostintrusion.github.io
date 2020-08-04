@@ -21,7 +21,11 @@ The exercises below aim to walkthrough some of adversary attacks, highlight some
 # Exercises
 
 # Tools
+A selection of tools for viewing/querying log files via the CLI.
 + [DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI)
++ [PowerShell](https://wiki.sans.blue/Tools/pdfs/Get-WinEvent.pdf)
++ [Python-EVTX](https://github.com/williballenthin/python-evtx)
++ [Microsoft LogParser](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
 
 # Samples
 
@@ -39,6 +43,7 @@ The exercises below aim to walkthrough some of adversary attacks, highlight some
 + [NSA - Recommended Events to Collect](https://github.com/nsacyber/Event-Forwarding-Guidance/tree/master/Events)
 + [Windows EVTX Samples](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
 + [UltimateWindowsSecurity - EventID Lookup](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
++ [Microsoft - Event Logs](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc722404(v=ws.11)?redirectedfrom=MSDN)
 
 ### Linux
 
