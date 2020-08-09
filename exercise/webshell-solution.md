@@ -172,3 +172,8 @@ EV_RenderedValue_18.00
 5028
 C:\Windows\System32\net.exe
 "C:\Windows\system32\net.exe" localgroup administrators appusr /add
+
+## References ##
++ [FIRST Incident clasification](https://www.first.org/resources/guides/csirt_case_classification.html)
++ [Kaspersky Incident response example](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07171449/Incident_Response_Guide_eng.pdf)
++ [NIST - Guide for Cybersecurity Event Recovery](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-184.pdf)
