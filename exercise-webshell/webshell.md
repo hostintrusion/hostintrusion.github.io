@@ -28,11 +28,10 @@ Using the log files can you determine and undertake the following:
 + Establish time line of events
 + What IoCs could be used?
 + What SIEM correlation rules could be used to detect the attack earlier?
-+ Establish time line of events
 + Produce an incident report detailing the attack and recommendations.
 
 ## Solution
-[Exercise write-up](/webshell-solution.md)
+[Exercise write-up](webshell-solution.md)
 
 # References
 The following advisories may assist:
