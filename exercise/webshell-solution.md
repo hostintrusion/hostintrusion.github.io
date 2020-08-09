@@ -79,7 +79,7 @@ The IIS log shows enumeration activity against the web site. This is the recon s
 + T1059.001 - [Command and Scripting Interpreter: PowerShell](https://attack.mitre.org/techniques/T1059/001/)
 
 ## Establish time line of events
-![timeline](/timeline.jpg)
+![timeline](timeline.jpg)
 
 ## What IoCs could be used?
 
