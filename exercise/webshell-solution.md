@@ -149,32 +149,12 @@ Incident report would summarise the above, covering the facts and observed event
 + Restore compromised asset to original state and apply preventative measures (vulnerabilty mitigation)
 
 **Source Data**
-The following raw event 
+The following raw event generated the SIEM alert
 
-2020-07-06 11:57:23.488
-EV_RenderedValue_2.00
-7200
-C:\Windows\System32\net1.exe
-10.0.14393.0 (rs1_release.160715-1616)
-Net Command
-Microsoft® Windows® Operating System
-Microsoft Corporation
-net1.exe
-C:\Windows\system32\net1 localgroup administrators appusr /add
-C:\Windows\system32\
-NT AUTHORITY\SYSTEM
-EV_RenderedValue_13.00
-999
-0
-System
-MD5=946383ED00F5CD92DBCB7CDB878ED819,SHA256=E92A2FA67AD2F7367ABA1ABF237D245B5E36291C5A4A9F0FC04B3A0E32FF618E,IMPHASH=E2F26A4CA577CF6DBACE937727934F80
-EV_RenderedValue_18.00
-5028
-C:\Windows\System32\net.exe
-"C:\Windows\system32\net.exe" localgroup administrators appusr /add
+![event](/event.jpg)
 
 ## References ##
 + [FIRST Incident clasification](https://www.first.org/resources/guides/csirt_case_classification.html)
 + [Kaspersky Incident response example](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07171449/Incident_Response_Guide_eng.pdf)
-+ [NIST - Guide for Cybersecurity Event Recovery](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-184.pdf)
++ [NIST Guide for Cybersecurity Event Recovery](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-184.pdf)
 + [NIST Computer Security Incident Handling Guide p58](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
