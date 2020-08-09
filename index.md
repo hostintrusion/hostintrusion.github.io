@@ -66,7 +66,7 @@ Authority resources that provide good practices from host configuration through 
 Curated list of references grouped by theme, a mix of primer, look-ups, configurations and vendor recommendations.
 ### Primer
 + [UK Cyber Body of Knowledge](https://www.cybok.org/media/downloads/Security_Operations__Incident_Management_issue_1.0.pdf)
-+ (The Pyramid of Pain by David Bianco)[http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html]
++ [The Pyramid of Pain by David Bianco](http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 
 ### Microsoft Windows
 + [Microsoft - Events to Monitor](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
