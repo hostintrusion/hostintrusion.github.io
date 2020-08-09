@@ -15,45 +15,45 @@ There are 2:
 
 ## What was the vulnerable web page?
 
-upload.aspx
+*upload.aspx*
 
 The last 10 rows in the iis.log shows interactions with upload.aspx. This differs from the recon activity. It is likely this was used by the attacker to gain a foothold.
 
 ## Name of malicious file uploaded?
 
-iis.aspx was one malicious file uploaded. This file wasn't detected as part of the recon, thus it can be concluded that this was uploaded. A filesystem check would detect the creation date.
+*iis.aspx* was one malicious file uploaded. This file wasn't detected as part of the recon, thus it can be concluded that this was uploaded. A filesystem check would detect the creation date.
 
-We know that from the sysmon log at 12:42 cmd.exe /c net user was invoked, parent process w3wp.exe (IIS). However the IIS log doesn't have accurate timestamps. An assumption that this was a webshell being invoked.
+We know that from the sysmon log at 12:42 *cmd.exe /c net user* was invoked, parent process *w3wp.exe* (IIS). However the IIS log doesn't have accurate timestamps. An assumption that this was a webshell being invoked.
 
 ## What tools were uploaded onto the server?
 
 Check sysmon log
 
-c:\logs\jp.exe \[event record ID 1076\]
-c:\logs\pe-shell.bat \[event record ID 1077\]
-http://86.168.182\[.\]10:7890/shell2.ps1 \[event record ID 1079\]
++ c:\logs\jp.exe \[event record ID 1076\]
++ c:\logs\pe-shell.bat \[event record ID 1077\]
++ http://86.168.182\[.\]10:7890/shell2.ps1 \[event record ID 1079\]
 
 ## What was the utility of the tools?
 
 Using sysmon log, hashes are captured \[event record ID 1076\].
 
-808502752CA0492ACA995E9B620D507B jp.exe \[JuicyPotato\], a local privilege escalation tool. Search this hash reveals that this is a common technique. [FoxKitten](https://www.clearskysec.com/wp-content/uploads/2020/02/ClearSky-Fox-Kitten-Campaign.pdf)
+808502752CA0492ACA995E9B620D507B *jp.exe* \[JuicyPotato\], a local privilege escalation tool. Search this hash reveals that this is a common technique. [FoxKitten](https://www.clearskysec.com/wp-content/uploads/2020/02/ClearSky-Fox-Kitten-Campaign.pdf)
 
-pe-shell.bat was likely used to launch shell2.ps1. This created a remote PowerShell session to the attacker machine [reverse shell].
+*pe-shell.bat* was likely used to launch *shell2.ps1*. This created a remote PowerShell session to the attacker machine \[reverse shell\].
 
 ## Were any changes made to the server i.e. config changes to accounts etc?
 
 There was an attempt to add a user to the local administrators group - sysmon eventID 1086. This doesn't appear have been successful, as there were no account creation events in the security audit log.
 
-Two files added to c:\logs folder, pe-shell.bat and jp.exe
+Two files added to c:\logs folder, *pe-shell.bat* and *jp.exe*
 
 ## We noticed a lot of random http requests in the log. What tool was used?
 
 The IIS log shows enumeration activity against the web site. This is the recon stage and is designed to understand the implementation of the web site, specifically for vulnerabilities. The tool used is burpsuite. In the log there are a number of references to burpcollaborator\[.\]net. Look up this domain:
 
-"Burp Collaborator Server
+*"Burp Collaborator Server*
 
-Burp Collaborator is a service that is used by Burp Suite when testing web applications for security vulnerabilities."
+*Burp Collaborator is a service that is used by Burp Suite when testing web applications for security vulnerabilities."*
 
 ## Any recommendations to harden the host?
 
@@ -118,9 +118,8 @@ Incident report would summarise the above, covering the facts and observed event
 + 06/07/2020 11:42:24 (UTC) - Actor achieved initial access to host \[192.168.112.141\] and conducted host survey.
 
 **Detection**
-+ Security monitoring (SIEM) detected an attempt to create a local administrator account on host 192.168.112.141. This was unsuccessful. Further analysis observed activity including website enumeration, privilege escalation, remote host connectivity via Powershell and upload of files to the host. The SIEM alert:
-
-+ ALERT: P1 - Administrator Account Created or Modified.
++ Security monitoring (SIEM) detected an attempt to create a local administrator account on host 192.168.112.141. This was unsuccessful. Further analysis observed activity including website enumeration, privilege escalation, remote host connectivity via Powershell and upload of files to the host. 
++ The SIEM alert: *ALERT: P1 - Administrator Account Created or Modified.*
 
 **Indicators of Compromise**
 + 86.168.182[.]25
@@ -151,7 +150,7 @@ Incident report would summarise the above, covering the facts and observed event
 **Source Data**
 The following raw event generated the SIEM alert
 
-![event](/event.jpg)
+![event](/event.JPG)
 
 ## References ##
 + [FIRST Incident clasification](https://www.first.org/resources/guides/csirt_case_classification.html)
