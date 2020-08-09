@@ -30,7 +30,7 @@ Understanding adversary behaviour is key to understanding how these map to the d
 Methods of detection is typically achieved by using Indicators of Compromise \(IoC\). At a basic level this could be a hash, file name, IPv4 address etc. The more advanced level of IoC is based on detecting activity, where if the basic level of IoC is changed i.e. hash, the activity will still be detected. Think of this as being an Indicator of Activity \(IoA\). The pyramid of pain illustrates this concept.
 
 ![IOC Pyramid](/pyramid-ioc.png)
-(The Pyramid of Pain by David Bianco)[http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html]
+[The Pyramid of Pain by David Bianco](http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
 
 # Exercises
 The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data. Secondly, the exercises have deliberately introduced constraints through improper configuration i.e. logging, clock sync etc, representing real-world challenges.
