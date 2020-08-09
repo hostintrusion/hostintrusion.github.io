@@ -106,48 +106,48 @@ Username [attempt at adding to local group]:
 + [NSA list of suspicious applications](https://github.com/nsacyber/Mitigating-Web-Shells)
 + [Page 3 lists suspicious processes called by w3wp.exe](https://media.defense.gov/2020/Jun/09/2002313081/-1/-1/0/CSI-DETECT-AND-PREVENT-WEB-SHELL-MALWARE-20200422.PDF)
 
-##Produce an incident report detailing the attack and recommendations.
+## Produce an incident report detailing the attack and recommendations.
 
 Incident report would summarise the above, covering the facts and observed events. NIST Computer SecurityIncident Handling Guide p58[https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf]. Usually there would be a prioritisation applied, however this is determined by the organisation i.e. severity of incident based on impact etc, P1, P2, P3 would be designated and have different response times, i.e. P1 would be a high severity, and could require urgent intervention.
 
-** Incident Summary **
+**Incident Summary**
 + Host compromise - [IIS Webserver/192.168.112.141] by an external unknown actor, via exploitation of vulnerable web services. 
 
-** Date/Time of Incident **
+**Date/Time of Incident**
 + 06/07/2020 11:42:24 (UTC) - Actor achieved initial access to host [192.168.112.141] and conducted host survey.
 
-** Detection **
+**Detection**
 + Security monitoring (SIEM) detected an attempt to create a local administrator account on host 192.168.112.141. This was unsuccessful. Further analysis observed activity including website enumeration, privilege escalation, remote host connectivity via Powershell and upload of files to the host. The SIEM alert:
 
 + ALERT: P1 - Administrator Account Created or Modified.
 
-** Indicators of Compromise **
+**Indicators of Compromise**
 + 86.168.182[.]25
 + 86.168.182[.]10:7890
 
 + c:\logs\jp.exe
 + c:\logs\pe-shell.bat
 
-** Status/Stage **
+**Status/Stage**
 + Incident is ongoing.
 
-** Impact **
+**Impact**
 + Incident affecting critical systems or information with potential to be revenue or customer impacting.
 
-** Incident Category **
+**Incident Category**
 + Compromised Asset
 
-** Assets Affected **
+**Assets Affected**
 + IIS Webserver/192.168.112.141
 
-** Recommendations/Response **
+**Recommendations/Response**
 + Isolate compromised asset IIS Webserver/192.168.112.141
 + Undertake DFIR on assets
 + Enable heightened monitoring of assets including retrospective analysis/sweep
 + Determine IOCs from compromise artifacts
 + Restore compromised asset to original state and apply preventative measures (vulnerabilty mitigation)
 
-** Source Data **
+**Source Data**
 The following raw event 
 
 2020-07-06 11:57:23.488
