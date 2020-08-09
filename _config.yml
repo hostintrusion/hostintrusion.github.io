@@ -4,3 +4,5 @@ description: Walkthroughs, challenges, and examples of host compromises
 logo: /host-intrusion-img.png
 show_downloads: false
 google_analytics: UA-174336987-1
+twitter:
+  username: "hostintrusion"
