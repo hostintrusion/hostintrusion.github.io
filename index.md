@@ -21,6 +21,10 @@ An host intrusion could be detected by several means, a SIEM alert could be gene
 
 The exercises will focus on log sources from a variety of sources, including web servers, domain controllers, sysmon, auditd etc to correlate activity relating to the intrusion, methods of analysis and presenting as part of a incident report.
 
+An APT actor could achieve access via a variety of means. Remote access is traditionally favoured i.e. email, web browser, VPN etc, as opposed to physical or close access. There are a number of frameworks that can assist the network defender to characterise the stage of the compromise/incident, these include the LockHeed Martin Cyber Kill Chain, MITRE ATT&CK, and Mandiant Attack Lifecycle illustrated below.
+
+![mandiant](/cyber_attack_lifecycle.jpg)
+
 # Exercises
 The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data. Secondly, the exercises have deliberately introduced constraints through improper configuration i.e. logging, clock sync etc, representing real-world challenges.
 
