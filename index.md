@@ -79,5 +79,8 @@ Curated list of references grouped by theme, a mix of primer, look-ups, configur
 + [UK Home Office Cyber - Detecting the Unknown](https://hodigital.blog.gov.uk/wp-content/uploads/sites/161/2020/03/Detecting-the-Unknown-A-Guide-to-Threat-Hunting-v2.0.pdf)
 + [Mandiant - Anatomy of an APT](https://www.fireeye.com/current-threats/anatomy-of-a-cyber-attack.html)
 + [Lockheed Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
++ [Elastic Threat Hunting Guide](https://www.elastic.co/pdf/elastic-guide-to-threat-hunting)
 
 # What Next?
++ To develop your own lab to generate/test artifacts, to understand logging configuration, then the NCSC Logging Made Easy provides a purpose built solution based on the Elastic platform. Instructions are available on the NCSC GitHub: [LME](https://github.com/ukncsc/lme).
++ Understanding detection rules. Elastic has made available a number of rules via their GitHub: [Elastic/Detection-rules](https://github.com/elastic/detection-rules/tree/main/rules)
