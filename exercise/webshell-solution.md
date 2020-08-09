@@ -79,24 +79,25 @@ Burp Collaborator is a service that is used by Burp Suite when testing web appli
 + T1059.001 - Command and Scripting Interpreter: PowerShell [https://attack.mitre.org/techniques/T1059/001/]
 
 ## Establish time line of events
+[](/timeline.jpg)
 
 ## What IoCs could be used?
 
-Attacker IPs:
+**Attacker IPs:**
 + 86.168.182[.]25
 + 86.168.182[.[10
 
-Tools hashes:
+**Tools hashes:**
 + 808502752CA0492ACA995E9B620D507B
 
-Filenames:
+**Filenames:**
 + jp.exe
 + pe-shell.bat
 + iis.aspx
 
 Note, filenames could result in false positives.
 
-Username [attempt at adding to local group]:
+**Username - attempt at adding to local group:**
 + appusr
 
 ## What SIEM correlation rules could be used to detect the attack earlier?
