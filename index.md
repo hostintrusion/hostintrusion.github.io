@@ -21,7 +21,7 @@ An host intrusion could be detected by several means, a SIEM alert could be gene
 
 The exercises will focus on log sources from a variety of sources, including web servers, domain controllers, sysmon, auditd etc to correlate activity relating to the intrusion, methods of analysis and presenting as part of a incident report.
 
-An APT actor could achieve access via a variety of means. Remote access is traditionally favoured i.e. email, web browser, VPN etc, as opposed to physical or close access. There are a number of frameworks that can assist the network defender to characterise the stage of the compromise/incident, these include the LockHeed Martin Cyber Kill Chain, MITRE ATT&CK, and Mandiant Attack Lifecycle illustrated below.
+An APT actor could achieve access via a variety of means. Remote access is traditionally favoured i.e. email, web browser, VPN etc, as opposed to physical or close access i.e. WiFi access, USB drop etc. There are a number of frameworks that can assist the network defender to characterise the stage of the compromise/incident, these include the LockHeed Martin Cyber Kill Chain, MITRE ATT&CK, and Mandiant Attack Lifecycle illustrated below.
 
 ![mandiant](/cyber_attack_lifecycle.jpg)
 
@@ -53,6 +53,9 @@ Authority resources that provide good practices from host configuration through 
 
 # References
 Curated list of references grouped by theme, a mix of primer, look-ups, configurations and vendor recommendations.
+### Primer
++ [UK Cyber Body of Knowledge](Security Operations &Incident ManagementKnowledge Area)
+
 ### Microsoft Windows
 + [Microsoft - Events to Monitor](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
 + [NSA - Recommended Events to Collect](https://github.com/nsacyber/Event-Forwarding-Guidance/tree/master/Events)
@@ -70,6 +73,7 @@ Curated list of references grouped by theme, a mix of primer, look-ups, configur
 + [Mitre ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/)
 + [ActiveCountermeasures - Log Analysis](https://www.activecountermeasures.com/log-analysis-part-1-enterprise-logging-approaches/)
 + [UK Home Office Cyber - Detecting the Unknown](https://hodigital.blog.gov.uk/wp-content/uploads/sites/161/2020/03/Detecting-the-Unknown-A-Guide-to-Threat-Hunting-v2.0.pdf)
++ [Mandiant - Anatomy of an APT](https://www.fireeye.com/current-threats/anatomy-of-a-cyber-attack.html)
++ [Lockheed Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 
 # What Next?
-
