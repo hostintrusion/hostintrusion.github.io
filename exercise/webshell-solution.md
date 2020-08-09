@@ -84,8 +84,8 @@ Burp Collaborator is a service that is used by Burp Suite when testing web appli
 ## What IoCs could be used?
 
 **Attacker IPs:**
-+ 86.168.182[.]25
-+ 86.168.182[.[10
++ 86.168.182\*[.]\*25
++ 86.168.182\*[.]\*10
 
 **Tools hashes:**
 + 808502752CA0492ACA995E9B620D507B
