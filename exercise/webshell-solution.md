@@ -79,7 +79,7 @@ Burp Collaborator is a service that is used by Burp Suite when testing web appli
 + T1059.001 - Command and Scripting Interpreter: PowerShell [https://attack.mitre.org/techniques/T1059/001/]
 
 ## Establish time line of events
-[](/timeline.jpg)
+![timeline](/timeline.jpg)
 
 ## What IoCs could be used?
 
