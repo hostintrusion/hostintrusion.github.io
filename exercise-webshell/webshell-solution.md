@@ -150,7 +150,7 @@ Incident report would summarise the above, covering the facts and observed event
 **Source Data**
 The following raw event generated the SIEM alert
 
-![event](event.JPG)
+![event](event.jpg)
 
 ## References ##
 + [FIRST Incident clasification](https://www.first.org/resources/guides/csirt_case_classification.html)
