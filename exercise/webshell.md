@@ -32,7 +32,7 @@ Using the log files can you determine and undertake the following:
 + Produce an incident report detailing the attack and recommendations.
 
 ## Solution
-To follow...
+[Solution](/webshell-solution.md)
 
 # References
 The following advisories may assist:
