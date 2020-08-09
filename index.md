@@ -57,10 +57,10 @@ Authority resources that provide good practices from host configuration through 
 + [ACSC Windows Event Logging and Forwarding](https://www.cyber.gov.au/acsc/view-all-content/publications/windows-event-logging-and-forwarding)
 
 # Recommended Books
-+ Counter Hack Reloaded by Ed Skoudis
-+ Malware - Fighting Malicious Code by Ed Skoudis
-+ The Art of Memory Forensics by Michael Hale Ligh, Andrew Case, Jamie Levy, AAron Walters
-+ Real Digital Forensics: Computer Security and Incident Response by Keith J. Jones, Richard Bejtlich
++ *Counter Hack Reloaded* by Ed Skoudis
++ *Malware - Fighting Malicious Code* by Ed Skoudis
++ *The Art of Memory Forensics* by Michael Hale Ligh, Andrew Case, Jamie Levy, AAron Walters
++ *Real Digital Forensics: Computer Security and Incident Response* by Keith J. Jones, Richard Bejtlich
 
 # References
 Curated list of references grouped by theme, a mix of primer, look-ups, configurations and vendor recommendations.
