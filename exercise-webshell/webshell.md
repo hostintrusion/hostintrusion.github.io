@@ -3,7 +3,7 @@
 
 There are 3 x log files. One web log, windows security audit log, and a sysmon log. The logs are in the following zip file:
 
-+[WebShell Intrusion Logs](https://github.com/hostintrusion/scenarios/blob/master/2020-07-Webshell_compromise.zip)
++ [WebShell Intrusion Logs](https://github.com/hostintrusion/scenarios/blob/master/2020-07-Webshell_compromise.zip)
 
 The SIEM generated an alert in response to an attempt to create a user to a local administrator group. The action appeared to have failed as there was no event in the security log. The SIEM alert detected the following activity:
 
