@@ -25,6 +25,13 @@ An APT actor could achieve access via a variety of means. Remote access is tradi
 
 ![mandiant](/cyber_attack_lifecycle.jpg)
 
+Understanding adversary behaviour is key to understanding how these map to the different stages of the attack lifecycle. The network defender needs to be aware of the tools and techniques that could be used, the methods of detection and how they facilitate the adversary objectives. Cyber threat intelligence sources (reports) play an important role in equipping the network defender with this knowledge.
+
+Methods of detection is typically achieved by using Indicators of Compromise \(IoC\). At a basic level this could be a hash, file name, IPv4 address etc. The more advanced level of IoC is based on detecting activity, where if the basic level of IoC is changed i.e. hash, the activity will still be detected. Think of this as being an Indicator of Activity \(IoA\). The pyramid of pain illustrates this concept.
+
+![IOC Pyramid](/pyramid-ioc.png)
+(The Pyramid of Pain by David Bianco)[http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html]
+
 # Exercises
 The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data. Secondly, the exercises have deliberately introduced constraints through improper configuration i.e. logging, clock sync etc, representing real-world challenges.
 
@@ -58,7 +65,8 @@ Authority resources that provide good practices from host configuration through 
 # References
 Curated list of references grouped by theme, a mix of primer, look-ups, configurations and vendor recommendations.
 ### Primer
-+ [UK Cyber Body of Knowledge](Security Operations &Incident ManagementKnowledge Area)
++ [UK Cyber Body of Knowledge](https://www.cybok.org/media/downloads/Security_Operations__Incident_Management_issue_1.0.pdf)
++ (The Pyramid of Pain by David Bianco)[http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html]
 
 ### Microsoft Windows
 + [Microsoft - Events to Monitor](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
