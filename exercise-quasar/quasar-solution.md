@@ -1,6 +1,14 @@
 # Exercise: Quasar
 **Date:** 18/08/2020
 
+## Compromise & Exfiltration
+![compromise](quasar-comms.JPG)
+
+## Quasar Functions
+![console](quasar-console.JPG )
+![remotefiles](quasar-remotefiles.JPG)
+![quasar-rs-ftp](quasar-rs-ftp.JPG)
+
 ## What was the name of the malicious document?
 + covid19 urgent.doc
 + \[EventRecordID 2555\] shows the document invoking an executable
@@ -87,6 +95,10 @@
 + \[EventRecordID 2578\] evidence that a tool PAExec was invoked remotely [temp file C:\Users\admin1\AppData\Local\Temp\QSzCCLeRXndP.exe]. Likely that this failed - should be uploaded to local host.
 + Forensic evidence left behind on DC-1, the folder c:\mssetup. In this scenario, a vigilant user spotted an unidentified folder and raised an incident.
 
+## Code Review
+Quasar is available in code form [Quasar GitHub](https://github.com/quasar/Quasar). Inspecting the code confirms the presence of hardcoded domains:
+![ioc1](quasar-ioc-domain1.JPG)
+![ioc2](quasar-ioc-domain2.JPG)
 
 # References
 The following advisories may assist:
