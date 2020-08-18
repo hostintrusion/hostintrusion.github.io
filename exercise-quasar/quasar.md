@@ -7,7 +7,8 @@ There are 2 x log files. The logs are in the following zip file:
 
 During routine maintenance on host DC-1 IPv4 192.168.112\[.\]140, an observant system administrated spotted an unrecognised folder on C: drive. Further analysis of the folder and its content, revealed the following.
 
-
+![files1](compromise-files1.JPG)
+![files2](compromise-files2.JPG)
 
 The activity (folder creation) occurred out of hours, and quick analysis of the events has determined that doesn’t appear to be a legitimate action. It is suspected that there is a compromise.
 
