@@ -36,6 +36,7 @@ Methods of detection is typically achieved by using Indicators of Compromise \(I
 The following exercises aim to walkthrough some scenarios featuring reported attacks (TTPS or tooling). The purpose of these exercises is to expose you to the different types of host artifacts, triage approach and how to determine the host compromise based on available data. Secondly, the exercises have deliberately introduced constraints through improper configuration i.e. logging, clock sync etc, representing real-world challenges.
 
 + [07-2020-WebShell](/exercise-webshell//webshell)
++ [08-2020-Quasar](/exercise-quasar//quasar)
 
 # Tools
 A selection of tools for viewing/querying log files via the CLI.
